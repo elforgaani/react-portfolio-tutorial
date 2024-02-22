@@ -1,0 +1,25 @@
+.icon{
+    position: relative;
+    margin-block: 1rem;
+}
+
+.icon::before{
+    content: '';
+    position :absolute;
+    top :50%;
+    right : 150%;
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    transform: translate(0, -50%);
+}
+.icon::after{
+    content: '';
+    position :absolute;
+    top :50%;
+    left : 150%;
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    transform: translate(0, -50%);
+}

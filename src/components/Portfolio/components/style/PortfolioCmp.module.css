@@ -1,0 +1,19 @@
+.portfolioImage::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 188, 156,0.8);
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.portfolioImage {
+}
+
+.portfolioImage:hover::after {
+  opacity: 1;
+  
+}
