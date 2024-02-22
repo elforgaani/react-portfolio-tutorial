@@ -1,4 +1,4 @@
-const FooterCmp = (props: any) => {
+const FooterCmp = (props: any):JSX.Element => {
     console.log(props.title);
     return (
         <div className="col-md-4">
