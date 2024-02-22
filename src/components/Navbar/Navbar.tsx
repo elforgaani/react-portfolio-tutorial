@@ -1,20 +1,38 @@
 import { Link } from 'react-router-dom';
 
 
-const Navbar = () => {
+const Navbar = (): JSX.Element => {
     return (
-        <nav className='fixed-top' style={{ backgroundColor: '#2C3D4F' }}>
-            <div className="container d-flex justify-content-between align-items-center py-3">
+        <nav className="navbar navbar-expand-sm navbar-light text-light " style={{ backgroundColor: '#2C3D4F' }}>
+            <div className="container">
                 <Link className='text-decoration-none text-light' to=""><h1 className='text-uppercase fw-bold fs-1 '>Start Framework</h1></Link>
-                <div className="tabs">
-                    <ul className='d-flex justify-content-center align-items-center list-unstyled'>
-                        <li className='px-2'><Link className='link-opacity-50 text-decoration-none text-light fw-bold text-uppercase ' to="about">About</Link></li>
-                        <li className='px-2'><Link className='link-opacity-50 text-decoration-none text-light fw-bold text-uppercase' to="portfolio">Portfolio</Link></li>
-                        <li className='px-2'><Link className='link-opacity-50 text-decoration-none text-light fw-bold text-uppercase' to="contacts">Contacts</Link></li>
+
+                <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon" />
+                </button>
+                <div className="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul className="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li className="nav-item">
+                            <Link className="nav-link active fw-bold text-light text-uppercase" to="about" >About
+                                <span className="visually-hidden">(current)</span></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link active fw-bold text-light text-uppercase" to="portfolio" >Portfolio
+                                <span className="visually-hidden">(current)</span></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link active fw-bold text-light text-uppercase" to="contacts" >Contacts
+                                <span className="visually-hidden">(current)</span></Link>
+                        </li>
+
+
                     </ul>
+
                 </div>
             </div>
         </nav>
+
+
     )
 }
 export default Navbar;
