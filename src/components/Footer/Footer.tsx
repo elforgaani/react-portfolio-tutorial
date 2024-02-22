@@ -1,7 +1,7 @@
 import FooterCmp from "./components/FooterCmp"
 import FooterCredits from "./components/FooterCredits";
 
-const Footer = () => {
+const Footer = (): JSX.Element => {
 
     const footerCmpData = [
         {
@@ -19,13 +19,13 @@ const Footer = () => {
     ]
 
     return (
-        <footer className="fixed-bottom text-light" style={{ backgroundColor: '#2C3D4F' }}>
+        <footer className="text-light" style={{ backgroundColor: '#2C3D4F' }}>
             <div className="container">
                 <div className="row">
                     {footerCmpData.map((item, index) => <FooterCmp key={index} {...item} />)}
                 </div>
-                <FooterCredits />
-            </div>
+            </div>  
+            <FooterCredits />
         </footer>
     )
 }
