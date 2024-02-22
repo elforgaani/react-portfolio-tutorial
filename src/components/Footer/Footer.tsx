@@ -10,7 +10,7 @@ const Footer = (): JSX.Element => {
         },
         {
             title: 'Around the Web',
-            description: 'Facebook Twitter Linkedin'
+            description: ''
         },
         {
             title: 'About Freelancer',
