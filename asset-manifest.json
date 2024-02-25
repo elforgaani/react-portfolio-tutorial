@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-tutorial/static/css/main.6ecbb5fd.css",
+    "main.js": "/react-portfolio-tutorial/static/js/main.02a3133e.js",
+    "static/js/453.60cba89b.chunk.js": "/react-portfolio-tutorial/static/js/453.60cba89b.chunk.js",
+    "static/media/pepe.png": "/react-portfolio-tutorial/static/media/pepe.0613f4b532bf255ba3d1.png",
+    "static/media/p1.png": "/react-portfolio-tutorial/static/media/p1.4417330275f78faa31c3.png",
+    "static/media/p2.png": "/react-portfolio-tutorial/static/media/p2.494a4a914b5471b41f3e.png",
+    "static/media/p3.png": "/react-portfolio-tutorial/static/media/p3.6554473016d32b343f02.png",
+    "static/media/avatar.svg": "/react-portfolio-tutorial/static/media/avatar.aa9aff02ddd0ef36a1724ecef4133df9.svg",
+    "index.html": "/react-portfolio-tutorial/index.html",
+    "main.6ecbb5fd.css.map": "/react-portfolio-tutorial/static/css/main.6ecbb5fd.css.map",
+    "main.02a3133e.js.map": "/react-portfolio-tutorial/static/js/main.02a3133e.js.map",
+    "453.60cba89b.chunk.js.map": "/react-portfolio-tutorial/static/js/453.60cba89b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ecbb5fd.css",
+    "static/js/main.02a3133e.js"
+  ]
+}
